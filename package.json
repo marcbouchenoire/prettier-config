@@ -1,0 +1,25 @@
+{
+  "name": "@bouchenoiremarc/prettier-config",
+  "version": "1.0.0",
+  "description": "My personal Prettier configuration.",
+  "author": "Marc Bouchenoire",
+  "license": "MIT",
+  "repository": "https://github.com/bouchenoiremarc/prettier-config",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
+  "scripts": {
+    "release": "yarn login && np --no-tests"
+  },
+  "devDependencies": {
+    "np": "^7.5.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  }
+}
