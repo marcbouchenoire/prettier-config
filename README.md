@@ -8,13 +8,13 @@
 
 #### Yarn
 
-```sh
+```bash
 yarn add -D prettier @bouchenoiremarc/prettier-config
 ```
 
 #### npm
 
-```sh
+```bash
 npm install --save-dev prettier @bouchenoiremarc/prettier-config
 ```
 
