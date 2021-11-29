@@ -2,7 +2,8 @@
 
 🍭 My personal Prettier configuration.
 
-[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/prettier-config?color=%230cf)](https://www.npmjs.com/package/@bouchenoiremarc/prettier-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/prettier-config?color=%2385f)](https://github.com/bouchenoiremarc/prettier-config/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/prettier-config?color=%230cf)](https://www.npmjs.com/package/@bouchenoiremarc/prettier-config)
+[![license](https://img.shields.io/github/license/bouchenoiremarc/prettier-config?color=%2385f)](https://github.com/bouchenoiremarc/prettier-config/blob/main/LICENSE)
 
 ## Installation
 
