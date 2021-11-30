@@ -1,5 +1,5 @@
 {
-  "name": "@bouchenoiremarc/prettier-config",
+  "name": "@marcbouchenoire/prettier-config",
   "version": "1.1.0",
   "description": "My personal Prettier configuration.",
   "author": "Marc Bouchenoire",
@@ -12,6 +12,9 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "prettier": "./index.js",
   "lint-staged": {
