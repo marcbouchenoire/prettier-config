@@ -32,19 +32,21 @@
     }
   },
   "scripts": {
-    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint": "pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint '**/*.js' --fix",
     "lint:prettier": "prettier '**/*.{js,json,md,yml}' --ignore-path .eslintignore --write --loglevel silent",
-    "release": "yarn login && np --no-tests"
+    "change": "pnpm changeset",
+    "version": "pnpm changeset version && pnpm install --no-frozen-lockfile",
+    "release": "pnpm publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "4.3.8",
     "nano-staged": "^0.8.0",
-    "np": "^7.6.3",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.2"
   },
   "peerDependencies": {
     "prettier": ">=2.0.0"
