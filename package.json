@@ -37,7 +37,7 @@
     "lint:prettier": "prettier '**/*.{js,json,md,yml}' --ignore-path .eslintignore --write --loglevel silent",
     "change": "pnpm changeset",
     "version": "pnpm changeset version && pnpm install --no-frozen-lockfile",
-    "release": "pnpm publish"
+    "release": "pnpm changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
