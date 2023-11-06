@@ -7,14 +7,6 @@
 
 ## Installation
 
-#### Yarn
-
-```bash
-yarn add -D prettier @marcbouchenoire/prettier-config
-```
-
-#### npm
-
 ```bash
 npm install --save-dev prettier @marcbouchenoire/prettier-config
 ```
